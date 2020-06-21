@@ -2,7 +2,7 @@ pipeline{
     stages{
         stage("branch"){
             steps{
-                echo "branch: develop"
+                echo "branch: master"
             }
         }
     }
