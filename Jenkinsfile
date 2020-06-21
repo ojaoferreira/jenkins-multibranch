@@ -1,7 +1,8 @@
-pipeline{
-    stages{
-        stage("branch"){
-            steps{
+pipeline {
+    agent none
+    stages {
+        stage("branch") {
+            steps {
                 echo "branch: master"
             }
         }
