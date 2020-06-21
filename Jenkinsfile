@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("branch") {
             steps {
-                echo "branch: master"
+                echo "branch: release"
             }
         }
     }
